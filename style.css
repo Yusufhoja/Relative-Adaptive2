@@ -30,6 +30,7 @@ nav img{
 width: 500px;
 font-size: 64px;
 color: #36536B ;
+transition: 0.9s;
 }
 .section1{
     display: flex;
@@ -39,6 +40,10 @@ color: #36536B ;
 .section1 img{
     width: 363px;
     height: 500px;
+    animation-name: tel;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
 }
 .section2{
     background-color: #1B262F;
@@ -199,4 +204,50 @@ footer{
 .fl a{
     margin-top: 10px;
 }
+}
+main h1:hover{
+    color: chartreuse;
+}
+main p:hover{
+ color: chartreuse;
+}
+main p{
+    transition: 0.9s;
+}
+main h1{
+    transition: 0.9s;
+}
+main h4{
+ transition: 0.9s;
+}
+main h4:hover{
+    color: chartreuse;
+}
+@keyframes tel{
+    0%{
+        margin-left: 100px;
+    }
+    25%{
+        margin-top: 100px;
+    }
+    50%{
+        margin-right: 100px;
+    }
+    /* 75%{
+        margin-bottom: 50px;
+    } */
+}
+.card .ra{
+    background-color: #36536B;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.ra:hover{
+    background-color: chartreuse;
+    
 }
