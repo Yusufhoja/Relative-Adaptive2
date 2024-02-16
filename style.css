@@ -31,11 +31,15 @@ width: 500px;
 font-size: 64px;
 color: #36536B ;
 transition: 0.9s;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .section1{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    height: 600px;
 }
 .section1 img{
     width: 363px;
@@ -43,6 +47,8 @@ transition: 0.9s;
     animation-name: tel;
     animation-duration: 8s;
     animation-iteration-count: infinite;
+    position: absolute;
+    right: 200px;
     
 }
 .section2{
